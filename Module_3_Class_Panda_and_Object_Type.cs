@@ -2,16 +2,16 @@
 Panda p1 = new Panda("Linda");
 Console.WriteLine("The first panda name is " + p1);   // Linda
 
-// OBJECT TYPE using object initializer
-Panda p2 = new Panda { Name = "Jack" };
+// OBJECT TYPE
+Panda p2 = new Panda ( Name = "Jack" );
 Console.WriteLine("The second panda name is " + p2);   // Jack
 
-public class Panda   // CLASS TYPE
+public class Panda   // Class Type
 {
-    public string Name { get; set; }   // Simple property to hold the name of the panda
+    public string Name { get; set; }  
 
     // Optional constructor
-    public Panda() { }
+    public Panda() 
 
     public Panda(string name)
     {
@@ -22,4 +22,5 @@ public class Panda   // CLASS TYPE
     {
         return Name;
     }
+
 }
