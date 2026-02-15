@@ -10,7 +10,7 @@ public class Panda   // Class Type
 {
     public string Name { get; set; }  
 
-    // Optional constructor
+    
     public Panda() 
 
     public Panda(string name)
@@ -24,3 +24,4 @@ public class Panda   // Class Type
     }
 
 }
+
